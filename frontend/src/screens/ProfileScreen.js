@@ -3,7 +3,7 @@ import {Form, Button, Row, Col, Table} from 'react-bootstrap'
 import {useDispatch, useSelector} from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
-import { getUserDetails, updateUserProfile } from '../actions/userAction'
+import { getUserDetails, updateUserProfile } from '../actions/userActions'
 import {LinkContainer} from 'react-router-bootstrap'
 import {listMyOrders} from '../actions/orderActions'
 
