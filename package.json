@@ -1,11 +1,11 @@
 {
   "name": "proshop",
-  "description": "MERN shopping cart app",
   "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
   "engines": {
     "node": "15.14.0"
   },
-  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node backend/server",
