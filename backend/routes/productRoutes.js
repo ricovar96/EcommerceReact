@@ -9,7 +9,8 @@ import {
   createProductReview,
   getTopProducts,
 } from '../controllers/productController.js'
-import { protect, admin } from '../middleWare/authMiddleware.js'
+
+import { protect, admin } from '../middleWare/authMiddleWare.js'
 
 router.route('/').get(getProducts).post(protect, admin, createProduct)
 
