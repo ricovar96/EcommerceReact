@@ -10,7 +10,8 @@ import {
     getUserById,
     updatetUser
     } from '../controllers/userController.js'
-import {protect, admin} from '../middleware/authMiddleWare.js'
+    
+import {protect, admin} from '../middleWare/authMiddleWare.js'
 
 router.route('/').post(registerUser).get(protect, admin, getUsers)
 router.post('/login', authUser)
