@@ -13,7 +13,7 @@ frontend/node_modules/
 
 # production
 /frontend/build
-
+/frontend/testFabian
 # misc
 .env
 .DS_Store
